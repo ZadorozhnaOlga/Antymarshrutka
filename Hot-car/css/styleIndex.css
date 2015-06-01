@@ -1,53 +1,97 @@
-#logo
+body
 {
-	background: url(../img/logo.png) no-repeat;
-	width: 100px;
-	height: 60px;
-	text-indent: -9999px;
+	background: #DCDCDC;
+	width: 100%;
 }
 
-ul a 
+div
 {
-	text-decoration: none;
-	color: grey;
-}
-
-ul a:hover
-{
-	text-decoration: underline;
-	color: black;
-}
-
-
+	margin: auto;
 }
 
 .menu
 {
-	display: inline-block;
-	margin-left: 20px;
-	text-decoration: none;
-
+	list-style: none;
 }
 
-.nav
+.menu li
 {
-		background-color: #DCDCDC;
-		width: 1320px;
-		height: 60px;
-		margin: auto;
-	
-}
-
-header
-{
-	background: #DCDCDC;
-
+	float: left;
+	margin: 10px 40px 0 0;
+	background: black;
+	border-radius: 5px;
+	width: 150px;
+	text-align: center;
+	line-height: 40px;
 }
 
 ul li
 {
-	display: inline-block;
+	list-style: none;
 }
+
+.menu a
+{
+	color: #ADFF2F;
+	display: block;
+	height: 40px;
+	font-size: 18px;
+	font: bold;
+	text-decoration: none;
+	border-radius: 5px;
+	border-style: outset;
+	border-color: #ADFF2F; 
+	border-width: 5px 10px 10px 5px;
+}
+
+.menu a:hover
+{
+	background: #ADFF2F;
+	border-radius: 5px;
+	color: black;
+	border-style: outset;
+	border-color: #32CD32;
+	transition-property: background, color;
+	transition-duration: 0.6s;
+}
+
+.menu ul 
+{
+	display: none;
+}
+
+.menu li:hover> ul 
+{
+	display: block;
+
+}
+
+#wrapper-header
+{
+border-style: outset;
+width:90%;
+height:90%;
+border-color: #BEBEBE;
+border-width: 5px 10px 10px 5px;
+}
+
+#header
+{
+width:978px;
+height:120px;
+margin:0 auto;
+
+}
+
+#logo
+{
+float:left;
+width:200px;
+height:100px;
+background:url("../img/logo.png") no-repeat;
+
+}
+
 
 .info
 {
@@ -60,9 +104,9 @@ background:url("../img/Start_Info.png") center center no-repeat;
 .story
 {
 	width: 960px;
-	height: 700px;
+	
 	margin: auto;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	border: 1px solid white;
 	background-color: #DCDCDC;
 	text-indent: 10px;
