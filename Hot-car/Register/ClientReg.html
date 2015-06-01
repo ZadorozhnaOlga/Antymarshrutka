@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+	
+<head>
+	<title>Registering client</title>
+	<meta charset = "utf-8"/>
+	<link rel="stylesheet" href="../css/styleReg.css"> 
+</head>
+
+<body>
+	<h1>Реєстрація пасажира</h1>
+	<form action="#" method="get">
+		<div id="leftcol">
+			<ul>
+
+				<li>
+					<label for="avatar">*Завантажити аватар: </label>
+					<input type="file" name="avatar"/>				
+					<input type="checkbox" class="checkboxes" data-title="Відображатиметься на сайті" disabled  checked name="displayAvatar"/>
+				</li>
+
+				<li>
+					<label for="name">Ім'я: </label>
+					<input id="name" name="name"/>				
+					<input type="checkbox" class="checkboxes" data-title="Відображатиметься на сайті"  checked disabled name="displayName"/>
+				</li>
+
+				<li>
+					<label for="surname">*Прізвище: </label>
+					<input id="surname" name="surname"/>
+					<input type="checkbox" class="checkboxes"  data-title="Відображати на сайті?" name="displaySurname"/>
+				</li>
+
+				<li>
+					<label for="lastname">*По батькові: </label>
+					<input id="lastname" name="lastname"/>				
+					<input type="checkbox" class="checkboxes" data-title="Відображати на сайті?"  name="displayLastname" />
+				</li>
+
+				<li>
+					<label for="city">*Місто: </label>
+					<input id="city" name="city"/>				
+					<input type="checkbox" class="checkboxes" data-title="Відображатиметься на сайті" disabled  checked name="displayCity"/>
+				</li>
+
+				<li>
+					<label for="street">*Вулиця: </label>
+					<input id="street" name="street"/>				
+					<input type="checkbox" class="checkboxes" data-title="Відображати на сайті?"  name="displayStreet"/>
+				</li>
+
+				
+		
+			<li>
+				<label for="about">*Трішки про себе: </label>
+				<textarea id="about" name="about">	</textarea>		
+				<input type="checkbox" class="checkboxes" data-title="Відображати на сайті?"  name="displayAbout"/>
+			</li>
+		</ul>
+
+		</div>
+
+		<div id="rightcol">
+			
+		<ul>
+			<li>
+				<label for="ways">*Популярні маршрути: </label>
+				<textarea id="ways" name="ways"></textarea>				
+				<input type="checkbox" class="checkboxes" data-title="Відображати на сайті?"  name="displayWays"/>
+			</li>
+
+		
+
+			<li>
+				<label for="mail">*e-mail: </label>
+				<input id="mail" name="mail"/>				
+				<input type="checkbox" class="checkboxes" data-title="Відображати на сайті?"  name="displayMail" />
+			</li>
+
+			<li>
+				<label for="news">*Отримувати новини про нові маршрути: </label>
+				<input id="news" name="news"/>				
+				<input type="checkbox" class="checkboxes" data-title="Відображати на сайті?" checked name="displayNews" />
+			</li>
+
+			<li>
+				<label for="rules">*З правилами роботи ознайомлений (-на): </label>
+				<input id="rules" name="rules"/>				
+				<input type="checkbox" class="checkboxes" data-title="Відображати на сайті?" name="displayRules"/>
+			</li>
+
+			<li>
+				<input type="submit" value="Register"/>
+			</li>
+
+			</ul>
+		</div>
+
+
+		
+
+	</form>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
