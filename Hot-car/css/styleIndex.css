@@ -1,7 +1,7 @@
 body
 {
 	background: #DCDCDC;
-	width: 100%;
+	width: 98%;
 }
 
 div
@@ -12,15 +12,17 @@ div
 .menu
 {
 	list-style: none;
+	width: 100%;
+
 }
 
 .menu li
 {
 	float: left;
-	margin: 10px 40px 0 0;
-	background: black;
+	margin: 25px 70px 0 0;
+	background: #292D30;
 	border-radius: 5px;
-	width: 150px;
+	width: 180px;
 	text-align: center;
 	line-height: 40px;
 }
@@ -32,7 +34,7 @@ ul li
 
 .menu a
 {
-	color: #ADFF2F;
+	color: #F5E3CD;
 	display: block;
 	height: 40px;
 	font-size: 18px;
@@ -40,17 +42,17 @@ ul li
 	text-decoration: none;
 	border-radius: 5px;
 	border-style: outset;
-	border-color: #ADFF2F; 
+	border-color: #FFFFFF; 
 	border-width: 5px 10px 10px 5px;
 }
 
 .menu a:hover
 {
-	background: #ADFF2F;
+	background: #FFFFFF;
 	border-radius: 5px;
 	color: black;
 	border-style: outset;
-	border-color: #32CD32;
+	border-color: #96938E;
 	transition-property: background, color;
 	transition-duration: 0.6s;
 }
@@ -60,35 +62,39 @@ ul li
 	display: none;
 }
 
+
+
 .menu li:hover> ul 
 {
 	display: block;
-
+	
 }
 
 #wrapper-header
 {
 border-style: outset;
-width:90%;
-height:90%;
-border-color: #BEBEBE;
+width:100%;
+height:100%;
+border-color: #FFFFFF;
 border-width: 5px 10px 10px 5px;
+background:  rgb(78, 84, 82);
 }
 
 #header
 {
-width:978px;
+width:100%;
 height:120px;
-margin:0 auto;
+margin: auto;
 
 }
 
 #logo
 {
 float:left;
-width:200px;
+width:400px;
 height:100px;
-background:url("../img/logo.png") no-repeat;
+margin-left: 20px;
+background:url("../img/number.png") no-repeat;
 
 }
 
@@ -96,7 +102,7 @@ background:url("../img/logo.png") no-repeat;
 .info
 {
 
-	width: 100%;
+width: 100%;
 height:620px;
 background:url("../img/Start_Info.png") center center no-repeat;
 }
@@ -136,4 +142,93 @@ background:url("../img/Start_Info.png") center center no-repeat;
 .centered
 {
 	margin: auto;
+}
+
+.main_idea
+{
+	width:100%;
+    height: 615px; 
+    background: url("../img/main_auto3.jpg") center no-repeat;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+
+}
+
+.text_main_idea
+{
+	width: 500px;
+	
+	float: left;
+	position: absolute;
+	text-align: center;
+	font-size: 40px;
+	
+	color: white;
+	
+	margin: 100px 30px 0 1050px;
+}
+
+.search
+{
+	font-size: 30px;
+	
+
+}
+
+.search li
+{
+	display: inline;
+}
+
+.trip
+{
+
+	height: 30px;
+	margin-right: 50px;
+}
+
+.main_idea a
+{
+	color: white;
+
+	text-decoration: none;
+}
+
+.Hotchat
+{
+	position: absolute;
+	margin: 100px 950px 0 100px;
+}
+
+
+
+
+
+
+@-webkit-keyframes pulsate 
+{ 
+	50% 
+		{ 
+			color: #fff; 
+			text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; 
+		} 
+}
+
+@keyframes pulsate 
+{ 
+	50% 
+		{ 
+			color: #fff; 
+			text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; 
+		} 
+}
+
+#text 
+{ 
+	font-size: 40px;
+	color: white; 
+	text-shadow: 0 -1px rgba(0,0,0,.1); 
+	 
+	-webkit-animation: pulsate 1.5s linear infinite; 
+	animation: pulsate 1.5s linear infinite; 
 }
