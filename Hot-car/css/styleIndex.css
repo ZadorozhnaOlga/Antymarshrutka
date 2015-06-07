@@ -1,7 +1,7 @@
 body
 {
-	background: #DCDCDC;
-	width: 98%;
+	
+	width: 100%;
 }
 
 div
@@ -13,18 +13,22 @@ div
 {
 	list-style: none;
 	width: 100%;
-
+	
 }
 
 .menu li
 {
 	float: left;
-	margin: 25px 70px 0 0;
-	background: #292D30;
-	border-radius: 5px;
-	width: 180px;
+	margin: 30px 70px 0 0;
+	
+	width: 13%;
 	text-align: center;
 	line-height: 40px;
+}
+
+.menu li li
+{
+	width: 130px;
 }
 
 ul li
@@ -34,27 +38,29 @@ ul li
 
 .menu a
 {
-	color: #F5E3CD;
+	color: white;
 	display: block;
-	height: 40px;
-	font-size: 18px;
+	font-family: sans-serif;
+	font-size: 20px;
 	font: bold;
 	text-decoration: none;
-	border-radius: 5px;
+	/*border-radius: 5px;
 	border-style: outset;
-	border-color: #FFFFFF; 
-	border-width: 5px 10px 10px 5px;
+	border-color: #91C9E8; 
+	border-width: 5px 10px 10px 5px;*/
 }
 
 .menu a:hover
 {
-	background: #FFFFFF;
+	background: #E8F8FF;
+	
 	border-radius: 5px;
 	color: black;
-	border-style: outset;
-	border-color: #96938E;
 	transition-property: background, color;
-	transition-duration: 0.6s;
+	transition-duration: 0.8s;
+	/*border-style: outset;
+	border-color: #91C9E8;
+	*/
 }
 
 .menu ul 
@@ -72,18 +78,41 @@ ul li
 
 #wrapper-header
 {
-border-style: outset;
+
+background: #3E606F;
 width:100%;
 height:100%;
-border-color: #FFFFFF;
-border-width: 5px 10px 10px 5px;
-background:  rgb(78, 84, 82);
+min-width: 1200px;
+
+}
+
+#wrapper-main
+{
+background: url("../img/main_auto3.jpg") center no-repeat;
+width:100%;
+height:100%;
+min-width: 1200px;
+
+}
+
+.menu_bar
+{
+	width: 100%;
+	height: 100px;
+}
+
+#header-main
+{
+width:100%;
+height:100%;
+margin: auto;
+
 }
 
 #header
 {
 width:100%;
-height:120px;
+height:110px;
 margin: auto;
 
 }
@@ -91,10 +120,10 @@ margin: auto;
 #logo
 {
 float:left;
-width:400px;
+width:300px;
 height:100px;
 margin-left: 20px;
-background:url("../img/number.png") no-repeat;
+background:url("../img/logo_copy.png") no-repeat;
 
 }
 
@@ -122,9 +151,10 @@ background:url("../img/Start_Info.png") center center no-repeat;
 
 }
 
-.menubar
+
+.search li
 {
-	margin-top: 10px;
+	display: inline-block;
 }
 
 
@@ -132,12 +162,34 @@ background:url("../img/Start_Info.png") center center no-repeat;
 .aboutService
 {
 	width: 960px;
-	height: 300px;
-	margin: auto;
-	margin-bottom: 10px;
-	border: 1px solid white;
-	background-color: #DCDCDC;
+	height: 680px;
+	background: url("../img/lviv3.png") center no-repeat;
 }
+
+.aboutServiceReg
+{
+	width: 1000px;
+	height: 751px;
+	background: url("../img/lvivreg3.png") center no-repeat;
+}
+
+.go
+{
+	width: 960px;
+	margin-top: 200px;
+	color: white;
+	float: left;
+	position: absolute;
+	text-align: center;
+	
+	font-size: 40px;
+}
+ 
+
+}
+
+
+
 
 .centered
 {
@@ -147,10 +199,10 @@ background:url("../img/Start_Info.png") center center no-repeat;
 .main_idea
 {
 	width:100%;
-    height: 615px; 
-    background: url("../img/main_auto3.jpg") center no-repeat;
-    border: 1px solid gray;
-    margin-bottom: 20px;
+    height: 780px; 
+    
+    
+    
 
 }
 
@@ -165,26 +217,49 @@ background:url("../img/Start_Info.png") center center no-repeat;
 	
 	color: white;
 	
-	margin: 100px 30px 0 1050px;
+	margin: 100px 30px 0 65%;
 }
 
-.search
+.line li
 {
-	font-size: 30px;
-	
+	margin-top: 20px;
 
-}
-
-.search li
-{
-	display: inline;
 }
 
 .trip
 {
 
-	height: 30px;
+	height: 40px;
 	margin-right: 50px;
+}
+
+/*.trip1
+{
+	background: #B4DCED;
+	height: 50px;
+	width: 300px;
+	margin-right: 50px;
+	border-radius: 5px;
+	font-size: 20px;
+	border-style: outset;
+	border-color: #91C9E8; 
+	border-width: 5px 10px 10px 5px;
+	transition-property: background, color;
+	transition-duration: 0.6s;
+}*/
+
+.line a
+{
+	color: white;
+	font-size:40px; 
+	text-decoration: none;
+}
+
+.line a:hover
+{
+	
+	color: #FFD700;
+	cursor: pointer;
 }
 
 .main_idea a
