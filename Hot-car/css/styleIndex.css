@@ -12,15 +12,13 @@ div
 .menu
 {
 	list-style: none;
-	width: 100%;
-	
+	width: 100%;	
 }
 
 .menu li
 {
 	float: left;
 	margin: 30px 70px 0 0;
-	
 	width: 13%;
 	text-align: center;
 	line-height: 40px;
@@ -44,23 +42,15 @@ ul li
 	font-size: 20px;
 	font: bold;
 	text-decoration: none;
-	/*border-radius: 5px;
-	border-style: outset;
-	border-color: #91C9E8; 
-	border-width: 5px 10px 10px 5px;*/
 }
 
 .menu a:hover
 {
 	background: #E8F8FF;
-	
 	border-radius: 5px;
 	color: black;
 	transition-property: background, color;
 	transition-duration: 0.8s;
-	/*border-style: outset;
-	border-color: #91C9E8;
-	*/
 }
 
 .menu ul 
@@ -68,31 +58,25 @@ ul li
 	display: none;
 }
 
-
-
 .menu li:hover> ul 
 {
 	display: block;
-	
 }
 
 #wrapper-header
 {
-
-background: #3E606F;
-width:100%;
-height:100%;
-min-width: 1200px;
-
+	background: #3E606F;
+	width:100%;
+	height:100%;
+	min-width: 1200px;
 }
 
 #wrapper-main
 {
-background: url("../img/main_auto3.jpg") center no-repeat;
-width:100%;
-height:920px;
-min-width: 1200px;
-
+	background: url("../img/main_auto.jpg") center no-repeat;
+	width:100%;
+	height:820px;
+	min-width: 1200px;
 }
 
 .menu_bar
@@ -103,43 +87,37 @@ min-width: 1200px;
 
 #header-main
 {
-width:100%;
-height:100%;
-margin: auto;
-
+	width:100%;
+	height:100%;
+	margin: auto;
 }
 
 #header
 {
-width:100%;
-height:110px;
-margin: auto;
-
+	width:100%;
+	height:110px;
+	margin: auto;
 }
 
 #logo
 {
-float:left;
-width:300px;
-height:100px;
-
-background:url("../img/logo_copy.png") no-repeat;
-
+	float:left;
+	width:300px;
+	height:100px;
+	background:url("../img/logo_copy.png") no-repeat;
 }
 
 
 .info
 {
-
-width: 100%;
-height:620px;
-background:url("../img/Start_Info.png") center center no-repeat;
+	width: 100%;
+	height:620px;
+	background:url("../img/Start_Info.png") center no-repeat;
 }
 
 .story
 {
 	width: 960px;
-	
 	margin: auto;
 	margin-bottom: 20px;
 	border: 1px solid white;
@@ -148,7 +126,6 @@ background:url("../img/Start_Info.png") center center no-repeat;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 20px;
-
 }
 
 
@@ -156,8 +133,6 @@ background:url("../img/Start_Info.png") center center no-repeat;
 {
 	display: inline-block;
 }
-
-
 
 .aboutService
 {
@@ -181,16 +156,9 @@ background:url("../img/Start_Info.png") center center no-repeat;
 	float: left;
 	position: absolute;
 	text-align: center;
-	
 	font-size: 40px;
 }
  
-
-}
-
-
-
-
 .centered
 {
 	margin: auto;
@@ -199,54 +167,30 @@ background:url("../img/Start_Info.png") center center no-repeat;
 .main_idea
 {
 	width:100%;
-    height: 780px; 
-    
-    
-    
-
+    height: 720px; 
 }
 
 .text_main_idea
 {
 	width: 500px;
-	
 	float: left;
 	position: absolute;
 	text-align: center;
 	font-size: 40px;
-	
 	color: white;
-	
-	margin: 100px 30px 0 65%;
+	margin: 150px 30px 0 70%;
 }
 
 .line li
 {
 	margin-top: 20px;
-
 }
 
 .trip
 {
-
 	height: 40px;
 	margin-right: 50px;
 }
-
-/*.trip1
-{
-	background: #B4DCED;
-	height: 50px;
-	width: 300px;
-	margin-right: 50px;
-	border-radius: 5px;
-	font-size: 20px;
-	border-style: outset;
-	border-color: #91C9E8; 
-	border-width: 5px 10px 10px 5px;
-	transition-property: background, color;
-	transition-duration: 0.6s;
-}*/
 
 .line a
 {
@@ -256,8 +200,7 @@ background:url("../img/Start_Info.png") center center no-repeat;
 }
 
 .line a:hover
-{
-	
+{	
 	color: #FFD700;
 	cursor: pointer;
 }
@@ -265,7 +208,6 @@ background:url("../img/Start_Info.png") center center no-repeat;
 .main_idea a
 {
 	color: white;
-
 	text-decoration: none;
 }
 
@@ -277,7 +219,6 @@ background:url("../img/Start_Info.png") center center no-repeat;
 
 .Hotchat
 {
-
 	position: relative;
 	margin-top:20px;
 	text-align: center;
@@ -288,11 +229,6 @@ background:url("../img/Start_Info.png") center center no-repeat;
 	color: white;
 	text-decoration: none;
 }
-
-
-
-
-
 
 @-webkit-keyframes pulsate 
 { 
@@ -322,20 +258,16 @@ background:url("../img/Start_Info.png") center center no-repeat;
 	animation: pulsate 1.5s linear infinite; 
 }
 
-
 #sidebar
 {
 	position: absolute;
         left:0px;
     bottom:20px;
-    top:200px;
+    top:130px;
     width:300px;
     min-height: 400px;
-	height: 600px;
-   
-    
+	height: 600px;  
 }
-
 
 .short_info
 {
@@ -359,7 +291,6 @@ background:url("../img/Start_Info.png") center center no-repeat;
 {
 	border: 2px solid #3E606F;
 	overflow-y:scroll;
-	
 	width:300px;
     min-height: 400px;
 	height: 500px;
@@ -373,4 +304,11 @@ background:url("../img/Start_Info.png") center center no-repeat;
 .phone
 {
 	font-size: 12px;
+}
+
+.footer
+{
+	text-align: center;
+	background: #3E606F;
+	color: white;
 }
