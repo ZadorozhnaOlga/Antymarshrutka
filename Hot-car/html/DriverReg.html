@@ -6,6 +6,7 @@
 	<meta charset = "utf-8"/>
 	<link rel="stylesheet" href="../css/styleReg.css"> 
 	<link rel="stylesheet" href="../css/styleIndex.css"> 
+	<script src="../js/script.js"></script>
 	<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 </head>
 
@@ -121,17 +122,21 @@
 
 						<li>
 							<label for="rules">*З правилами роботи ознайомлений (-на): </label>
-							<input id="rules" name="rules"/>				
+							<input id="rules" name="rules"/>
+
 							<input type="checkbox" class="checkboxes" name="displayRules"/>
 						</li>
 
 						<li>
-							<input type="submit" value="Зареєструватись"/>
+							<input type="button" onclick="infoRegister()" value="Зареєструватись"/>
 						</li>
 					</ul>
 				</div>
 			</form>
 		</div>
 	</div>
+	<footer class="footer">
+	    Designed by Olga Zadorozhna
+	 </footer>
 </body>
 </html>
